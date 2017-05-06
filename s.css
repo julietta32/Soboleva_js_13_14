@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+div.test{
+    margin-left: 15%;
+}
+
+.test ul{
+    font-size: 22px;
+    font-weight: 900;}
+
+
+.test li{
+    color: green;
+    list-style: none;
+    font-size: 20px;
+}
+input#second{
+    font-size: 20px;
+    background-color: aquamarine;
+    margin-left: 40%;
+    font-weight: 700;
+}

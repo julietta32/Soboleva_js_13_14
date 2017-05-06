@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Шаблон</title>
+	<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="js/js1.js"></script>
+	<script src="js/tmpl.js"></script>
+	<link rel="stylesheet" href="s.css">
+</head>
+    
+	<body>
+	
+<script type="text/template" id="test">
+	<h1>Тест по программированию</h1>
+	<form id="first" method="post">
+
+	<% for (var i=0; i<data.length; i++){ %>
+<div class="test">
+	<ul><%= data[i].question %>
+    </ul>
+     <li><input type="checkbox"><label><%= data[i].answer1 %></label></li>
+       <li><input type="checkbox"><label><%= data[i].answer2 %></label></li>
+         <li><input type="checkbox"><label><%= data[i].answer3 %></label></li>
+
+</div>
+	<% }; %>
+
+<br><input id="second" type="submit" value="Проверить мои результаты"></input>
+
+    
+    </form>
+
+	</script>
+	
+	</body>
+	
+	
+	
+	
+
+</html>
